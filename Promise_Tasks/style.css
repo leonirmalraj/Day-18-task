@@ -1,0 +1,25 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-top: 20px;
+}
+
+/* Optional: Add styling for alternate row colors */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
