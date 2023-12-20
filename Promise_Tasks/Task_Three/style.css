@@ -1,0 +1,48 @@
+/* Add your custom styles here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+/* Style for DataTable */
+#dataTable {
+    width: 100%;
+}
+
+/* Style the DataTable header */
+#dataTable thead th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style the DataTable rows */
+#dataTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    #dataTable {
+        font-size: 14px;
+    }
+
+    #dataTable thead th,
+    #dataTable tbody td {
+        padding: 8px;
+    }
+}
